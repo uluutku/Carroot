@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("./assets/carroot-background_v2.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

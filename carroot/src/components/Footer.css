@@ -1,0 +1,29 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__country {
+  margin-bottom: 20px;
+  color: #70757a;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.footer__left a,
+.footer__right a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #70757a;
+}

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__left a,
+.header__right a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #5f6368;
+}
